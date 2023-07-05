@@ -1,0 +1,160 @@
+{
+  "projects": [
+    {
+      "_id": "0cd43194-dd03-4661-8388-2f609136e6da",
+      "_type": "project",
+      "_type": "project",
+      "title": "Netflix UI Intreface - API ",
+      "summary": "A web project developed with react, html and css that explores the power of the Netflix API while exploring concepts of responsiveness and interactive design, replicating the interface of one of the biggest video platforms on the market.",
+      "image": "/projects_img/netflix.png",
+      "technologies": [
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+        "895e87e9-da63-46dd-999f-57cec8b2886a"
+      ],
+      "linkToBuild": "https://netflixclone-b23k5nmpr-stealthworm.vercel.app"
+    },
+    {
+      "_id": "35463df0-0426-4df9-80d9-9fdae54e33ae",
+      "_type": "project",
+      "title": "Parking Backend",
+      "summary": "In this project I had the challenge of developing a set of APIs using Spring Boot to control a parking lot. The entry, exit and amount to be charged from the customer will be controlled. All API development best practices were applied, including security with Spring Security and access to PostgreSQL databases. Tests and test coverage reports were performed. After completion, the app was deployed to the Heroku cloud in order to make our API available to the Internet.\n\nuser: user\npassword: 12345",
+      "image": "/projects_img/parking.png",
+      "technologies": [
+        "db26d03a-37f2-48c0-8b22-5f54f494b7b8",
+        "2e53648b-18b1-4014-941a-5ec75d880917",
+        "fa39aa63-8c00-4306-ac60-beb5bb4e148a"
+      ],
+      "linkToBuild": "https://parking-tps.herokuapp.com/swagger-ui/index.html#/ParkingController"
+    },
+    {
+      "_id": "4a96ad13-b14b-4a42-a509-bd2178fb9548",
+      "_type": "project",
+      "title": "HABITS - Daily Routine Setup",
+      "summary": "A simple and intuitive application developed with React, prisma , Typescript and Render that allows users to define goals for their routines through a panel of dates. It is possible to create goals for your day to day, in a simple and dynamic way. It makes it easy to manage your tasks and progress on a daily basis.\n\nIt also provides google authentication, but considering google's free plans it can fail sometimes.",
+      "image": "/projects_img/habits.png",
+      "technologies": [
+        "ac26c930-cd22-4699-bfe2-b680094439cd",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+        "0dcc40df-9413-46d4-b2d3-505a0804260a",
+        "234506ac-2b66-42e2-9de9-c610c9fffc89",
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720",
+        "21246719-206a-413c-8d75-a6eff6752430"
+      ],
+      "linkToBuild": "https://nlw-setup-thierry.netlify.app"
+    },
+    {
+      "_id": "6191c75b-c472-4361-9f73-2da8b02847fa",
+      "_type": "project",
+      "title": "Twitter Interface UI",
+      "summary": "This project is a Twitter user interface (UI) clone using React focused on addressing the fundamentals of this technology such as componentization, properties, state, forms, etc.",
+      "image": "/projects_img/twitter.png",
+      "technologies": [
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+        "895e87e9-da63-46dd-999f-57cec8b2886a",
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720"
+      ],
+      "linkToBuild": "https://masterclass-react-one.vercel.app"
+    },
+    {
+      "_id": "74c6418e-3257-4246-bec6-7ba893fe98e1",
+      "_type": "project",
+      "title": "Pokedex Cool",
+      "summary": "A react project exploring javascript concepts and animation libraries. In addition, the Pokemon API was used to exemplify the item listing. The project also features responsive design, pagination and a distinctive design.",
+      "image": "/projects_img/pokedex.png",
+      "technologies": [
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+        "895e87e9-da63-46dd-999f-57cec8b2886a",
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564"
+      ],
+      "linkToBuild": "https://pokedexanimated.netlify.app"
+    },
+    {
+      "_id": "7b212b95-a871-4b9a-8351-c5f991eb1cd7",
+      "_type": "project",
+      "title": "Menu theme-switcher",
+      "summary": "A simple React frontend project to exercise concepts such as customizable hooks, application states and contexts, as well as color manipulation using styled-components",
+      "image": "/projects_img/switcher.png",
+      "technologies": [
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720"
+      ],
+      "linkToBuild": "https://menu-theme-switcher.vercel.app"
+    },
+    {
+      "_id": "a6f8bcfa-5e6e-461a-aa6d-f4827a401327",
+      "_type": "project",
+      "title": "Landing Page - ADVOCACY",
+      "summary": "A project developed using pure javascript in order to explore the capabilities of the language. The objective was to develop a landing page for a law firm, exploring the main concepts of responsiveness and interface design.",
+      "image": "/projects_img/lawyer.png",
+      "technologies": [
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+        "895e87e9-da63-46dd-999f-57cec8b2886a",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23"
+      ],
+      "linkToBuild": "https://landing-page-frontweek.vercel.app"
+    },
+    {
+      "_id": "b270ee37-a3e7-4d07-8964-e8e8bf4cad34",
+      "_type": "project",
+      "title": "Move it",
+      "summary": "Based on the pomodoro technique, move.it aims to help people who stay in front of the computer for  long periods and end up not exercising, challenging the user in a fun way. move.it is an application developed during Next Level Week #3 - ReactJs Trail - hosted by Rocketseat \n\nFeatures\nStart a 25 minute cycle.\n  - Abandon cycle.\n  - Fires a sound effect when the cycle comes to an end.\n  - Sends a notification when the cycle ends.\n  - Each cycle releases a new challenge.\n  - User earns XP for every challenge completed.\n  - User can level up.",
+      "image": "/projects_img/move_it.png",
+      "technologies": [
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+        "055ebed3-3ccf-4dc7-aaa6-9bcbf006bf74",
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954"
+      ],
+      "linkToBuild": "https://moveit-next-orpin.vercel.app"
+    },
+    {
+      "_id": "d57ff90b-db7a-41b5-8aa3-97ee3701705a",
+      "_type": "project",
+      "title": "Discord UI App",
+      "summary": "Project created in React immersion with @alura, whose objective was to explore websocket communication concepts for a Dsicord-style conversation chat.\nIn it, it is possible for several people to communicate simultaneously, in addition to allowing the sending of gifs and images.\n/projects_img/\nJust connect your github account and enjoy it xD",
+      "image": "/projects_img/discord.png",
+      "technologies": [
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+        "895e87e9-da63-46dd-999f-57cec8b2886a",
+        "d1b7b79b-4950-49a6-813b-8020d7aaf606"
+      ],
+      "linkToBuild": "https://discord-app-matrix.vercel.app"
+    },
+    {
+      "_id": "fadf71cd-7dba-47d9-91a4-ac352ae513e5",
+      "_type": "project",
+      "title": "Event Platform",
+      "summary": "This project is a web event platform made with React, Typescript, GraphQL, GraphCMS and other modern web development technologies.",
+      "image": "/projects_img/event_platform.png",
+      "technologies": [
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "234506ac-2b66-42e2-9de9-c610c9fffc89",
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720",
+        "1e28aa9f-2e65-48a2-a0ba-81881fd32e0f"
+      ],
+      "linkToBuild": "https://event-platform-ignite-lab-tau.vercel.app"
+    },
+    {
+      "_id": "ff0cec99-600e-44ba-a06e-1ca08400a2c3",
+      "_type": "project",
+      "title": "Feedback Widget",
+      "summary": "Widget built at NLW Returns with accessibility and using the best technologies on the market. The main idea is to provide a way that users can send feedbacks. The application is divided between web and server, so this is only the visual template.",
+      "image": "/projects_img/widget.png",
+      "technologies": [
+        "e3210fa4-7d31-4e52-9b3f-5df94b56ba6f",
+        "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+        "ac26c930-cd22-4699-bfe2-b680094439cd",
+        "234506ac-2b66-42e2-9de9-c610c9fffc89",
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720"
+      ],
+      "linkToBuild": "https://nlw-return-inpulse-iota.vercel.app"
+    }
+  ]
+}

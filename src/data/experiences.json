@@ -1,0 +1,52 @@
+{
+  "experiences": [
+    {
+      "_id": "1247457c-866b-46f7-8a09-b0ecf26b3538",
+      "_type": "experience",
+      "company": "Prefeitura Municipal de Ponta Grossa",
+      "jobTitle": "IT SUPPORT ENGINEER",
+      "dateStarted": "2018-10-06",
+      "dateEnded": "2019-10-20",
+      "isCurrentlyWorkingHere": false,
+      "companyImage": "/experiences_img/PG.png",
+      "points": [
+        "Created technical support tickets and solving various problems directly with customers in various locations in the city.",
+        "Provided personalized training for new customers, reducing frustration and improving satisfaction.",
+        "Resolved numerous technical issues on various systems and applications for customers and end users.",
+        "Prepared new equipment and mobile devices in accordance with the company's internal software policies and following security  guidelines.",
+        "Acted as an intermediary between the relationship between the company and end customers, providing clarification to customers  about new software or hardware available for use."
+      ],
+      "technologies": [
+        "04c5a10e-968a-4eab-b800-ee4bdcfc8656"
+      ]
+    },
+    {
+      "_id": "4733d470-8adb-40ba-8862-611be59f0207",
+      "_type": "experience",
+      "company": "BTRANS INFORMÁTICA LTDA",
+      "jobTitle": "Fullstack Developer - Delphi",
+      "dateStarted": "2019-10-25",
+      "dateEnded": "",
+      "isCurrentlyWorkingHere": true,
+      "companyImage": "/experiences_img/bsoft.png",
+      "points": [
+        "Acted in charge of revising, modularizing and updating legacy code bases to modern development standards required by the  company, reducing operating costs and improving functionality.",
+        "Acted proactively, demonstrating critical thinking skills, decisive judgment and with minimal supervision, even when manipulating  databases and non-dominated technologies.",
+        "In charge of substantiating, implementing and testing multiple system interfaces, simplifying overall management and offering ease  of use.",
+        "Actively collaborated in the systems development life cycle stages, mainly involving the use of Agile Methodologies, from  requirements gathering to production releases.",
+        "In charge of coordinating and cooperating with the project management team regarding development schedules and project scope.",
+        "Actively acted in the introduction and adaptation of the team in the main concepts of agile methodologies and best development  practices for products."
+      ],
+      "technologies": [
+        "309bcd07-2136-4e5b-bd75-130f0a872677",
+        "b40c5ce7-9ee5-4505-87bd-f3b35f60971b",
+        "0dcc40df-9413-46d4-b2d3-505a0804260a",
+        "33840d56-ab3c-40ad-8e92-5cae9e0a07e7",
+        "64935309-5642-4791-ac66-8284383c990c",
+        "84bee3fd-21c9-48de-8f41-b04ed096f278",
+        "cd04c9a5-fc13-4435-bf99-86815394a291",
+        "24b8a93f-3545-41ea-a7bb-b68aaa245aef"
+      ]
+    }
+  ]
+}

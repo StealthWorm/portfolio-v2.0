@@ -1,0 +1,277 @@
+{
+  "skills": [
+    {
+      "_id": "04c5a10e-968a-4eab-b800-ee4bdcfc8656",
+      "progress": "1 year",
+      "title": "IT Support",
+      "_type": "skill",
+      "image": "/skills_img/support.png"
+    },
+    {
+      "_id": "04f5f35a-e936-4130-ba86-5e6dc2eaad23",
+      "progress": "3 years",
+      "title": "Javascript",
+      "_type": "skill",
+      "image": "/skills_img/javascript.png"
+    },
+    {
+      "_id": "055ebed3-3ccf-4dc7-aaa6-9bcbf006bf74",
+      "progress": "2 years",
+      "title": "Next js",
+      "_type": "skill",
+      "image": "/skills_img/nextjs.png"
+    },
+    {
+      "_id": "0922e9e6-33c9-4c91-a445-d3835f4ac954",
+      "progress": "3 years",
+      "title": "React js",
+      "_type": "skill",
+      "image": "/skills_img/reactjs.png"
+    },
+    {
+      "_id": "0dcc40df-9413-46d4-b2d3-505a0804260a",
+      "progress": "2 years",
+      "title": "Figma",
+      "_type": "skill",
+      "image": "/skills_img/figma.png"
+    },
+    {
+      "_id": "121316ae-de8f-4ed8-9d66-7a85054d5fb9",
+      "progress": "1 year",
+      "title": "Maya",
+      "_type": "skill",
+      "image": "/skills_img/maya.png"
+    },
+    {
+      "_id": "1bd972f2-8918-4cc8-a89f-dfade2689ae1",
+      "progress": "2 years",
+      "title": "PostgresSQL",
+      "_type": "skill",
+      "image": "/skills_img/postgresql.png"
+    },
+    {
+      "_id": "1e28aa9f-2e65-48a2-a0ba-81881fd32e0f",
+      "progress": "1 year",
+      "title": "Graph QL",
+      "_type": "skill",
+      "image": "/skills_img/graphql.png"
+    },
+    {
+      "_id": "21246719-206a-413c-8d75-a6eff6752430",
+      "progress": "1 year",
+      "title": "React Native",
+      "_type": "skill",
+      "image": "/skills_img/react_native.png"
+    },
+    {
+      "_id": "234506ac-2b66-42e2-9de9-c610c9fffc89",
+      "progress": "2 years",
+      "title": "Tailwind CSS",
+      "_type": "skill",
+      "image": "/skills_img/tailwind.png"
+    },
+    {
+      "_id": "24b8a93f-3545-41ea-a7bb-b68aaa245aef",
+      "progress": "2 years",
+      "title": "Azure DevOps",
+      "_type": "skill",
+      "image": "/skills_img/azure.png"
+    },
+    {
+      "_id": "2e53648b-18b1-4014-941a-5ec75d880917",
+      "progress": "1 year",
+      "title": "Spring Framework",
+      "_type": "skill",
+      "image": "/skills_img/spring.png"
+    },
+    {
+      "_id": "309bcd07-2136-4e5b-bd75-130f0a872677",
+      "progress": "3 years",
+      "title": "Firebird",
+      "_type": "skill",
+      "image": "/skills_img/firebird.png"
+    },
+    {
+      "_id": "32dcd2eb-7ab1-4cf0-b274-0f44f547b451",
+      "progress": "0.5 years",
+      "title": "Python",
+      "_type": "skill",
+      "image": "/skills_img/python.png"
+    },
+    {
+      "_id": "33840d56-ab3c-40ad-8e92-5cae9e0a07e7",
+      "progress": "1 year",
+      "title": "Docker",
+      "_type": "skill",
+      "image": "/skills_img/docker.png"
+    },
+    {
+      "_id": "43adaf71-f1b2-4809-a572-7cb8acd16137",
+      "progress": "1 year",
+      "title": "C++",
+      "_type": "skill",
+      "image": "/skills_img/c++.png"
+    },
+    {
+      "_id": "e449ce88-2bd5-4377-81d7-4e02d2ffdeb8",
+      "progress": "0.5 year",
+      "title": "Sanity",
+      "_type": "skill",
+      "image": "/skills_img/sanity.png"
+    },
+    {
+      "_id": "50f3e084-175f-43eb-9ce8-ee56eb53ce8d",
+      "progress": "1 year",
+      "title": "MySQL",
+      "_type": "skill",
+      "image": "/skills_img/mysql.png"
+    },
+    {
+      "_id": "5c0f13b5-ec22-4a9e-9e7e-fd7ca025bd97",
+      "progress": "1 year",
+      "title": "Latex",
+      "_type": "skill",
+      "image": "/skills_img/latex.png"
+    },
+    {
+      "_id": "64935309-5642-4791-ac66-8284383c990c",
+      "progress": "4 years",
+      "title": "Tortoise SVN",
+      "_type": "skill",
+      "image": "/skills_img/tortoise_svn.png"
+    },
+    {
+      "_id": "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720",
+      "progress": "3 years",
+      "title": "Typescript",
+      "_type": "skill",
+      "image": "/skills_img/typescript.png"
+    },
+    {
+      "_id": "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+      "progress": "4 years",
+      "title": "HTML",
+      "_type": "skill",
+      "image": "/skills_img/html.png"
+    },
+    {
+      "_id": "e9906a1f-dac2-482c-822e-c12f19771f47",
+      "progress": "1 years",
+      "title": "Adobe Illustrator",
+      "_type": "skill",
+      "image": "/skills_img/illustrator.png"
+    },
+    {
+      "_id": "84bee3fd-21c9-48de-8f41-b04ed096f278",
+      "progress": "2 years",
+      "title": "Gimp",
+      "_type": "skill",
+      "image": "/skills_img/gimp.png"
+    },
+    {
+      "_id": "895e87e9-da63-46dd-999f-57cec8b2886a",
+      "progress": "4 years",
+      "title": "CSS",
+      "_type": "skill",
+      "image": "/skills_img/css.png"
+    },
+    {
+      "_id": "ac26c930-cd22-4699-bfe2-b680094439cd",
+      "progress": "1 year",
+      "title": "Prisma ORM",
+      "_type": "skill",
+      "image": "/skills_img/prisma.png"
+    },
+    {
+      "_id": "ac543f0f-c7c9-4b71-8062-eb7d34c5c88b",
+      "progress": "4 years",
+      "title": "Visual Studio Code",
+      "_type": "skill",
+      "image": "/skills_img/vscode.png"
+    },
+    {
+      "_id": "b40c5ce7-9ee5-4505-87bd-f3b35f60971b",
+      "progress": "3 years",
+      "title": "Pascal Delphi",
+      "_type": "skill",
+      "image": "/skills_img/delphi.png"
+    },
+    {
+      "_id": "c4e48d16-0e6f-4de3-bc6f-b8c285a75644",
+      "progress": "1 year",
+      "title": "Photoshop",
+      "_type": "skill",
+      "image": "/skills_img/photoshop.png"
+    },
+    {
+      "_id": "c753f9e6-72b5-43f8-85d9-30d6a3a1bf90",
+      "progress": "1 year",
+      "title": "Sass",
+      "_type": "skill",
+      "image": "/skills_img/sass.png"
+    },
+    {
+      "_id": "cd04c9a5-fc13-4435-bf99-86815394a291",
+      "progress": "3 years",
+      "title": "Git",
+      "_type": "skill",
+      "image": "/skills_img/git.png"
+    },
+    {
+      "_id": "d022ace1-2c5b-4861-b1aa-61a340e7ec77",
+      "progress": "1 year",
+      "title": "Heroku",
+      "_type": "skill",
+      "image": "/skills_img/heroku.png"
+    },
+    {
+      "_id": "d1b7b79b-4950-49a6-813b-8020d7aaf606",
+      "progress": "1 year",
+      "title": "Supabase",
+      "_type": "skill",
+      "image": "/skills_img/supabase.png"
+    },
+    {
+      "_id": "d47ece0d-992e-41a0-bf31-fc6992bb1d98",
+      "progress": "1 year",
+      "title": "Firebase",
+      "_type": "skill",
+      "image": "/skills_img/firebase.png"
+    },
+    {
+      "_id": "d636cc3f-eb2a-407f-9d7a-fa9a9fec95bf",
+      "progress": "1 year",
+      "title": "Mongo DB",
+      "_type": "skill",
+      "image": "/skills_img/mongodb.png"
+    },
+    {
+      "_id": "db26d03a-37f2-48c0-8b22-5f54f494b7b8",
+      "progress": "1 year",
+      "title": "Java",
+      "_type": "skill",
+      "image": "/skills_img/java.png"
+    },
+    {
+      "_id": "e3210fa4-7d31-4e52-9b3f-5df94b56ba6f",
+      "progress": "3 years",
+      "title": "Node js",
+      "_type": "skill",
+      "image": "/skills_img/nodejs.png"
+    },
+    {
+      "_id": "92acc2b9-7fd4-41ab-80db-fbbc74760214",
+      "progress": "1 year",
+      "title": "Notion",
+      "_type": "skill",
+      "image": "/skills_img/notion.png"
+    },
+    {
+      "_id": "fa39aa63-8c00-4306-ac60-beb5bb4e148a",
+      "progress": "1 year",
+      "title": "Intellij",
+      "_type": "skill",
+      "image": "/skills_img/intellij.png"
+    }
+  ]
+}

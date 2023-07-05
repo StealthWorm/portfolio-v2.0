@@ -1,0 +1,28 @@
+{
+  "socials": [
+    {
+      "_id": "12fa2ce8-f67a-4bde-aa7e-1b51332ca1cd",
+      "_type": "social",
+      "title": "Github",
+      "url": "https://github.com/StealthWorm"
+    },
+    {
+      "_id": "40611d6d-1724-4c22-9cec-f269c99a344c",
+      "_type": "social",
+      "title": "UIverse",
+      "url": "https://uiverse.io/profile/StealthWorm"
+    },
+    {
+      "_id": "b47371fb-482a-498a-9eff-89386dc0494a",
+      "_type": "social",
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thierry-pitela-santos-970221188/"
+    },
+    {
+      "_id": "d8bb6dd0-dd00-4639-9822-c989d8dc0431",
+      "_type": "social",
+      "title": "Behance",
+      "url": "https://www.behance.net/thierrypitela"
+    }
+  ]
+}
