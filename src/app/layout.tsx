@@ -11,12 +11,16 @@ export const metadata = {
 export default function RootLayout({ children, }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <link
-        rel="preload"
-        href="/src/styles/fonts/Valorax-lg25V.otf"
-        as="font"
-        type="font/otf"
-      />
+      <head>
+        <link
+          rel="preload"
+          href="/src/styles/fonts/Valorax-lg25V.otf"
+          as="font"
+          type="font/otf"
+        />
+
+        <meta name="google-site-verification" content="5gpax7FNKo7HCnu0GBEqze0Ji_uWxzRKKU3seT9dWrU" />
+      </head>
       <link rel="shortcut icon" href="/favicon.ico" />
       <body className={inter.className} suppressHydrationWarning>
         {children}
