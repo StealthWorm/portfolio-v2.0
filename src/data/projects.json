@@ -26,7 +26,7 @@
         "2e53648b-18b1-4014-941a-5ec75d880917",
         "fa39aa63-8c00-4306-ac60-beb5bb4e148a"
       ],
-      "linkToBuild": "https://parking-tps.herokuapp.com/swagger-ui/index.html#/ParkingController"
+      "linkToBuild": "https://parking-cloud-dio-api.onrender.com/swagger-ui/index.html#/ParkingController"
     },
     {
       "_id": "4a96ad13-b14b-4a42-a509-bd2178fb9548",
@@ -155,6 +155,32 @@
         "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720"
       ],
       "linkToBuild": "https://nlw-return-inpulse-iota.vercel.app"
+    },
+    {
+      "_id": "5d9dfaf8-6553-4962-8911-0ae8f6f4d43a",
+      "_type": "project",
+      "title": "GitBlog",
+      "summary": "A stylish application that allows you to view issues in your repository with greater clarity. In this project, the best practices in the scope of frontend development were applied, from the use of context apis, to the creation of customizable Hooks to the use of functions such as memo and useCallback to optimize page renderings.",
+      "image": "/projects_img/gitblog.png",
+      "technologies": [
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720",
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23"
+      ],
+      "linkToBuild": "https://reactjs-challenge-03-github-blog.vercel.app/"
+    },
+    {
+      "_id": "f323220d-000d-4673-86f9-3c5870110043",
+      "_type": "project",
+      "title": "Coffee Delivery",
+      "summary": "An application for controlling coffee delivery, using the main React structures such as useReducer and context api, in addition to providing an interactive and responsive interface.",
+      "image": "/projects_img/coffeedelivery.png",
+      "technologies": [
+        "67b40e7f-f3cf-4feb-8bf0-f5eb2b8d5720",
+        "67ce5df1-1ceb-40aa-9783-4c6eac5c9564",
+        "04f5f35a-e936-4130-ba86-5e6dc2eaad23"
+      ],
+      "linkToBuild": "https://reactjs-challenge-02-coffee-delivery.vercel.app"
     }
   ]
 }
