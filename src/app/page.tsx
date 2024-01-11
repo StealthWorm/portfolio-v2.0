@@ -58,7 +58,7 @@ export default function Home() {
         <Hero pageInfo={pageInfo} />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about" className="-center">
         <About pageInfo={pageInfo} />
       </section>
 
@@ -74,7 +74,7 @@ export default function Home() {
         <Projects projects={projects} />
       </section>
 
-      <section id="contact" className="snap-start">
+      <section id="contact" className="snap-end">
         <ContactMe pageInfo={pageInfo} />
       </section>
 

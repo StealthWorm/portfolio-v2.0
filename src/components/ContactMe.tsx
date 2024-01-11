@@ -24,18 +24,18 @@ export default function ContactMe({ pageInfo }: Props) {
   };
 
   return (
-    <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-center mx-auto items-center">
-      <h3 className='absolute top-32 uppercase tracking-[20px] text-gray-500 text-2xl'>
+    <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row  px-10 justify-center items-center mb-[10rem]">
+      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-32 mt-14 absolute top-32 mx-auto">
+      <div className="flex flex-col md:space-y-20 space-y-10 mt-14 absolute top-24 mx-auto">
         <h4 className='text-lg md:text-4xl font-semibold text-center font-valorax w-full'>
           I have got just what you need.{" "}
           <span className="decoration-emerald-400/50 underline text-emerald-400 animate-pulse drop-shadow-[0_0_10px_rgba(110,231,183,0.8)]">Lets Talk.</span>
         </h4>
 
-        <div className='space-y-2 space-x-0 md:space-x-4 md:space-y-0 absolute top-[-5rem] flex items-center justify-center flex-col md:flex-row w-full'>
+        <div className='space-y-2 space-x-0 md:space-x-4 md:space-y-0  flex items-center justify-center flex-col md:flex-row w-full'>
           <div className='flex items-center space-x-5'>
             <PhoneIcon className='text-emerald-500 h-7 w-7 animate-pulse' />
             <p className='text-md md:text-xl min-w-5rem text-gray-500 w-[13rem] md:w-full'>{pageInfo.phoneNumber}</p>
@@ -50,8 +50,8 @@ export default function ContactMe({ pageInfo }: Props) {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} autoComplete="off" className='flex flex-col space-y-2 w-fit mx-auto'>
-          <div className='flex space-x-2'>
+        <form onSubmit={handleSubmit(onSubmit)} autoComplete="off" className='flex px-4 mb-10 flex-col space-y-2 md:w-fit mx-auto w-full'>
+          <div className='flex flex-col space-y-2 md:space-x-2 md:flex-row md:space-y-0'>
             <input {...register('name')} placeholder='Name' type='text' className='contactInput' />
             <input {...register('email')} placeholder='Email' type='email' className='contactInput' />
           </div>
