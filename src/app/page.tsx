@@ -58,11 +58,11 @@ export default function Home() {
         <Hero pageInfo={pageInfo} />
       </section>
 
-      <section id="about" className="-center">
+      <section id="about" className="snap-start">
         <About pageInfo={pageInfo} />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience" className="snap-start">
         <WorkExperience experiences={experiences} />
       </section>
 
