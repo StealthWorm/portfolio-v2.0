@@ -26,11 +26,11 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'seeklogo.com',
+        hostname: 'avatars.githubusercontent.com',
       },
       {
         protocol: 'https',
-        hostname: 'cdn.sanity.io',
+        hostname: 'seeklogo.com',
       },
       {
         protocol: 'https',

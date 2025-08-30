@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-        'lato': ['Lato', 'sans-serif'],
-        'valorax': ['VALORAX', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        valorax: ['VALORAX', 'sans-serif'],
       },
-      backgroundImage: {
-        'hero-pattern': "url('https://cdn.sanity.io/images/4l7yyod4/production/102736c3478e01a61d47db5f5600c5a79731a44a-460x460.jpg?w=2000&fit=max&auto=format')",
-      },
+      // backgroundImage: {
+      //   'hero-pattern': "url('https://cdn.sanity.io/images/4l7yyod4/production/102736c3478e01a61d47db5f5600c5a79731a44a-460x460.jpg?w=2000&fit=max&auto=format')",
+      // },
       boxShadow: {
-        'neon': '0 0 1rem -15px rgba(0, 0, 0, 0.8)',
+        neon: '0 0 1rem -15px rgba(0, 0, 0, 0.8)',
       },
       keyframes: {
         glitch: {
@@ -30,7 +30,7 @@ module.exports = {
           '70%': { clipPath: 'polygon(0 70%, 100% 70%, 100% 70%, 0 70%)' },
           '80%': { clipPath: 'polygon(0 80%, 100% 80%, 100% 80%, 0 80%)' },
           '90%': { clipPath: 'polygon(0 50%, 100% 50%, 100% 55%, 0 55%)' },
-          '100%': { clipPath: 'polygon(0 60%, 100% 60%, 100% 70%, 0 70%)' }
+          '100%': { clipPath: 'polygon(0 60%, 100% 60%, 100% 70%, 0 70%)' },
         },
         glitch2: {
           '0%': { clipPath: 'polygon(0 15%, 100% 15%, 100% 30%, 0 30%)' },
@@ -43,18 +43,18 @@ module.exports = {
           '75%': { clipPath: 'polygon(0 80%, 100% 80%, 100% 80%, 0 80%)' },
           '80%': { clipPath: 'polygon(0 40%, 100% 40%, 100% 60%, 0 60%)' },
           '95%': { clipPath: 'polygon(0 45%, 100% 45%, 100% 60%, 0 60%)' },
-          '100%': { clipPath: 'polygon(0 11%, 100% 11%, 100% 15%, 0 15%)' }
+          '100%': { clipPath: 'polygon(0 11%, 100% 11%, 100% 15%, 0 15%)' },
         },
         draw: {
           '0%': { strokeDashoffset: 3860 },
           '50%': { strokeDashoffset: 0 },
-          '100%': { strokeDashoffset: -3860 }
+          '100%': { strokeDashoffset: -3860 },
         },
         fade: {
           '0%': { strokeDashoffset: 3860 },
           '50%': { strokeDashoffset: 0 },
-          '100%': { strokeDashoffset: - 3860 }
-        }
+          '100%': { strokeDashoffset: -3860 },
+        },
       },
       animation: {
         glitch: 'glitch 2s infinite linear alternate',
@@ -64,7 +64,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('tailwind-scrollbar'),
-  ],
-}
+  plugins: [require('tailwind-scrollbar')],
+};
