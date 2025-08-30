@@ -31,7 +31,7 @@ export default function ExperienceCard({ experience }: Props) {
               key={tech._id}
               className='h-8 w-8 rounded-full'
               title={tech.title}
-              src={typeof tech.image === 'string' ? tech.image : urlFor(tech.image).url()}
+              src={tech.image}
               alt={tech.title}
             />
           )

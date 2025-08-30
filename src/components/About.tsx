@@ -31,7 +31,7 @@ export default function About({ pageInfo }: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
 
-        src={pageInfo?.profilePic} //{urlFor(pageInfo?.profilePic).url()}
+        src={pageInfo?.profilePic}
         className='flex-shrink-0 w-24 h-24 rounded-full object-cover md:rounded-lg mt-32 md:w-64 md:h-96 md:mt-0 xl:w-[300px] xl:h-[400px]'
       />
 
