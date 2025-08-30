@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Experience } from '../../typings'
-import { urlFor } from '../../sanity/lib/client'
 
 type Props = {
   experience: Experience;
@@ -17,7 +16,7 @@ export default function ExperienceCard({ experience }: Props) {
         whileInView={{ opacity: 0.3, y: 0 }}
         viewport={{ once: true }}
         className="z-0 absolute  -left-6 -top-6 object-cover h-28 w-28 rounded-full object-center xl:w-[150px] xl:h-[150px]"
-        src={typeof experience?.companyImage === 'string' ? experience?.companyImage : urlFor(experience?.companyImage).url()}
+        src={experience?.companyImage}
         alt=""
       />
 
@@ -26,9 +25,11 @@ export default function ExperienceCard({ experience }: Props) {
         <p className='font-bold text-md mt-2 text-gray-300 uppercase tracking-[8px]'>{experience.company}</p>
         <div className='flex space-x-2 my-2'>
           {experience.technologies.map((tech) => (
-            <img
+            <Image
+              width={8}
+              height={8}
               key={tech._id}
-              className='h-8 w-8 rounded-full '
+              className='h-8 w-8 rounded-full'
               title={tech.title}
               src={typeof tech.image === 'string' ? tech.image : urlFor(tech.image).url()}
               alt={tech.title}

@@ -7,10 +7,10 @@ const nextConfig = {
   generateEtags: false,
 
   // Performance optimizations
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
+  // experimental: {
+  //   optimizeCss: true,
+  //   scrollRestoration: true,
+  // },
 
   // Image optimization
   images: {
