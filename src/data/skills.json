@@ -272,6 +272,27 @@
       "title": "Intellij",
       "_type": "skill",
       "image": "/skills_img/intellij.png"
+    },
+    {
+      "_id": "ai-ml-001",
+      "progress": "1 year",
+      "title": "AI/ML",
+      "_type": "skill",
+      "image": "/skills_img/ai-ml.png"
+    },
+    {
+      "_id": "big-data-001",
+      "progress": "1 year",
+      "title": "Big Data",
+      "_type": "skill",
+      "image": "/skills_img/big-data.png"
+    },
+    {
+      "_id": "computer-vision-001",
+      "progress": "1 year",
+      "title": "Computer Vision",
+      "_type": "skill",
+      "image": "/skills_img/computer-vision.png"
     }
   ]
 }

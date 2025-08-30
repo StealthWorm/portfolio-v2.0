@@ -1,26 +1,98 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+/* Optimized font loading */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 my-2 border border-emerald-500 rounded-full uppercase text-xs tracking-widest text-gray-500 backdrop-blur-md transition-all hover:border-emerald-500/40 hover:text-emerald-500/40
+    @apply px-6 py-2 my-2 border border-emerald-500 rounded-full uppercase text-xs tracking-widest text-gray-500 backdrop-blur-md transition-all duration-300 ease-in-out hover:border-emerald-500/40 hover:text-emerald-500/40 focus:outline-none focus:ring-2 focus:ring-emerald-500/50;
   }
+
   .contactInput {
-    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 md:py-4 py-2 border-emerald-500 text-gray-500 placeholder-gray-500 transition-all focus:border-emerald-500/40 focus:text-emerald-500/40
-    hover:border-emerald-500/40
-  } 
+    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 md:py-4 py-2 border-emerald-500 text-gray-500 placeholder-gray-500 transition-all duration-300 ease-in-out focus:border-emerald-500/40 focus:text-emerald-500/40 hover:border-emerald-500/40;
+  }
+
   .contactButton {
-    @apply bg-transparent text-gray-400 border border-emerald-500 font-bold py-2 px-5 rounded-md hover:text-white hover:border-[white] hover:duration-1000;
+    @apply bg-transparent text-gray-400 border border-emerald-500 font-bold py-2 px-5 rounded-md transition-all duration-300 ease-in-out hover:text-white hover:border-white focus:outline-none focus:ring-2 focus:ring-emerald-500/50;
   }
 }
 
+/* Optimized font loading with font-display */
 @font-face {
-  font-family: "VALORAX";
-  src: url("/src/styles/fonts/Valorax-lg25V.otf");
+  font-family: 'VALORAX';
+  src: url('/src/styles/fonts/Valorax-lg25V.otf') format('opentype');
+  font-display: swap;
 }
 
+/* Performance optimizations */
 * {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Optimized scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(16 185 129 / 0.8) rgb(156 163 175 / 0.2);
+}
+
+/* Optimized animations
+@keyframes glitch {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+}
+
+@keyframes glitch2 {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(2px, -2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  60% {
+    transform: translate(-2px, -2px);
+  }
+  80% {
+    transform: translate(-2px, 2px);
+  }
+}
+
+.animate-glitch {
+  animation: glitch 0.3s infinite;
+}
+
+.animate-glitch2 {
+  animation: glitch2 0.3s infinite;
+} */
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

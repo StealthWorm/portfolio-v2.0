@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion'
 import { Social } from '../../typings';
@@ -30,17 +30,18 @@ export default function Header({ socials }: Props) {
         ))}
       </motion.div>
 
-      <a href="#contact" className='hover:brightness-150 transition-all duration-300 ease-in-out'>
-        <motion.div
-          initial={{ x: 500, opacity: 0, scale: 0.5 }}
-          animate={{ x: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
-          className='flex flex-row items-center text-emerald-400 drop-shadow-[0_0_10px_rgba(110,231,183,0.8)] cursor-pointer'
-        >
+      <motion.div
+        suppressHydrationWarning={true}
+        initial={{ x: 500, opacity: 0, scale: 0.5 }}
+        animate={{ x: 0, opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}
+        className='flex flex-row items-center text-emerald-400 drop-shadow-[0_0_10px_rgba(110,231,183,0.8)] cursor-pointer'
+      >
+        <a href="#contact" className='hover:brightness-150 transition-all duration-300 ease-in-out'>
           <SocialIcon className="cursor-pointer" network='email' fgColor='rgb(52, 211, 153)' bgColor='transparent' />
           <p className="uppercase hidden md:inline-flex text-sm text-emerald-400">Get in touch</p>
-        </motion.div>
-      </a>
+        </a>
+      </motion.div>
     </header>
   )
 }
